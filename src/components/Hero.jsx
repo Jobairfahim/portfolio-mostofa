@@ -11,8 +11,8 @@ const Hero = () => {
             <div className="lg:col-span-1 flex flex-col justify-center gap-5 animate-[fadeUp_0.6s_ease_forwards]">
               <div>
                 <p className="text-gray-400 text-xl mb-2">Hello, i'm</p>
-                <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight">Mostafa Rahman</h1>
-                <h2 className="text-4xl lg:text-5xl font-bold text-white mt-2">UI/UX Designer</h2>
+                <h1 className="text-4xl lg:text-6xl font-bold text-primary leading-none">Mostafa Rahman</h1>
+                <h2 className="text-3xl lg:text-5xl font-bold text-white mt-2">UI/UX Designer</h2>
               </div>
               <p className="text-gray-500 text-base leading-relaxed max-w-sm">
                 Passionate About Creating Intuitive Digital Experiences That Connect Users With Value.
@@ -60,11 +60,10 @@ const Hero = () => {
             <div className="lg:col-span-1 flex justify-center items-center">
               <div className="relative">
                 {/* Green circle background */}
-                <div className="absolute inset-0 rounded-full bg-primary opacity-90 scale-95 translate-y-4"></div>
+                {/* <div className="absolute inset-0 rounded-full bg-primary opacity-90 scale-95 translate-y-4"></div> */}
                 {/* Photo placeholder */}
-                <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden bg-[#111]">
-                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
-                   
+                <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden ">
+                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">         
                   </div>
                   <img src="/hero-pf.png" alt="Mostafa Rahman" className="w-full h-full object-cover object-top" />
                 </div>
