@@ -10,26 +10,26 @@ const Hero = () => {
             {/* Left — Text */}
             <div className="lg:col-span-1 flex flex-col justify-center gap-5 animate-[fadeUp_0.6s_ease_forwards]">
               <div>
-                <p className="text-gray-400 text-lg mb-1">Hello, i'm</p>
-                <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight">Mostafa Rahman</h1>
-                <h2 className="text-3xl lg:text-4xl font-bold text-white mt-1">UI/UX Designer</h2>
+                <p className="text-gray-400 text-xl mb-2">Hello, i'm</p>
+                <h1 className="text-5xl lg:text-6xl font-bold text-primary leading-tight">Mostafa Rahman</h1>
+                <h2 className="text-4xl lg:text-5xl font-bold text-white mt-2">UI/UX Designer</h2>
               </div>
-              <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
+              <p className="text-gray-500 text-base leading-relaxed max-w-sm">
                 Passionate About Creating Intuitive Digital Experiences That Connect Users With Value.
               </p>
               <div className="flex flex-wrap gap-3">
                 <button
                   onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-                  className="flex items-center gap-2 bg-primary text-black text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-green-400 transition-all duration-200"
+                  className="flex items-center gap-2 bg-primary text-black text-base font-semibold px-6 py-3 rounded-full hover:bg-green-400 transition-all duration-200"
                 >
                   Hire Me
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <svg width="16" height="16" viewBox="0 0 14 14" fill="none">
                     <path d="M2 7h10M7 2l5 5-5 5" stroke="#0a0a0a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
-                <button className="flex items-center gap-2 border border-[#2a2a2a] text-white text-sm font-medium px-5 py-2.5 rounded-full hover:border-primary hover:text-primary transition-all duration-200">
+                <button className="flex items-center gap-2 border border-[#2a2a2a] text-white text-base font-medium px-6 py-3 rounded-full hover:border-primary hover:text-primary transition-all duration-200">
                   Download Resume
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <svg width="16" height="16" viewBox="0 0 14 14" fill="none">
                     <path d="M7 2v8M3 7l4 4 4-4M2 12h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
@@ -60,9 +60,9 @@ const Hero = () => {
             <div className="lg:col-span-1 flex justify-center items-center">
               <div className="relative">
                 {/* Green circle background */}
-                <div className="absolute inset-0 rounded-full bg-primary opacity-90 scale-95 translate-y-4" style={{borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%'}}></div>
+                <div className="absolute inset-0 rounded-full bg-primary opacity-90 scale-95 translate-y-4"></div>
                 {/* Photo placeholder */}
-                <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#0a0a0a] bg-[#111]">
+                <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden bg-[#111]">
                   <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
                    
                   </div>
@@ -73,17 +73,17 @@ const Hero = () => {
 
             {/* Right — Stats */}
             <div className="lg:col-span-1 flex flex-row lg:flex-col justify-center gap-4 lg:gap-4">
-              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-5 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
-                <div className="text-2xl font-bold text-primary">1+</div>
-                <div className="text-gray-500 text-sm mt-1">Years Of Experience</div>
+              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-6 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
+                <div className="text-3xl font-bold text-primary">1+</div>
+                <div className="text-gray-500 text-base mt-2">Years Of Experience</div>
               </div>
-              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-5 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
-                <div className="text-2xl font-bold text-primary">20+</div>
-                <div className="text-gray-500 text-sm mt-1">Project Complete</div>
+              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-6 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
+                <div className="text-3xl font-bold text-primary">20+</div>
+                <div className="text-gray-500 text-base mt-2">Project Complete</div>
               </div>
-              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-5 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
-                <div className="text-2xl font-bold text-primary">99%</div>
-                <div className="text-gray-500 text-sm mt-1">Client Satisfactions</div>
+              <div className="bg-[#111111] border border-[#1f1f1f] rounded-xl p-6 flex-1 lg:flex-none hover:border-primary/40 transition-colors">
+                <div className="text-3xl font-bold text-primary">99%</div>
+                <div className="text-gray-500 text-base mt-2">Client Satisfactions</div>
               </div>
             </div>
           </div>

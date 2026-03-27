@@ -30,7 +30,7 @@ const projects = [
     align: 'right',
     bg: 'bg-gradient-to-br from-yellow-900/40 to-yellow-700/20',
     accent: '#eab308',
-    image: '/project3.jpg.png',
+    image: '/project5.jpg.png',
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const projects = [
     align: 'left',
     bg: 'bg-gradient-to-br from-teal-900/40 to-teal-700/20',
     accent: '#14b8a6',
-    image: '/project5.jpg.png',
+    image: '/project3.jpg.png',
   },
 ];
 

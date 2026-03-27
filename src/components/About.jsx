@@ -82,10 +82,10 @@ const About = () => {
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/10 via-transparent to-transparent pointer-events-none"></div>
                 <img src="/about.png" alt="Mostafa Rahman" className="w-full h-full object-cover" />
               </div>
-              {/* Decorative tag */}
+              {/* Decorative tag
               <div className="absolute top-4 right-4 bg-[#0a0a0a]/80 backdrop-blur border border-[#2a2a2a] rounded-lg px-3 py-2 text-xs text-gray-400">
                 UI/UX DESIGN STUDIO
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
